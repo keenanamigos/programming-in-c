@@ -1,0 +1,1 @@
+<p>Code and examples from Programming in C, 3rd Edition by Stephen G. Kochan.</p>
