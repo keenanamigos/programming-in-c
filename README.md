@@ -1,1 +1,1 @@
-<p>Code and examples from Programming in C, 3rd Edition by Stephen G. Kochan.</p>
+<p>Workspace to learn C in preparation for a course.</p>
