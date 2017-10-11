@@ -11,7 +11,10 @@
 
 int main(void)
 {
-    printf("In C, lower case ltters are significant\nmain is where program execution begins\nOpening and closing braces enclose program statements in a routine\nAll program statements must be terminated by a semicolon");
+    printf("In C, lower case ltters are significant\n");
+    printf("main is where program execution begins\n");
+    printf("Opening and closing braces enclose program statements in a routine\n");
+    printf("All program statements must be terminated by a semicolon\n");
 
     return 0;
 }
