@@ -8,7 +8,7 @@ int main(void)
     printf("n   Sum from 1 to n\n");
     printf("--- ---------------\n");
 
-    for (n = 1; n <= 10; n += 1)
+    for (n = 1; n <= 10; ++n)
     {
         triangularNumber += n;
         printf("%i      %i\n", n, triangularNumber);
