@@ -10,7 +10,7 @@ int main(void)
 {
     float result = ((3.31 * pow(10, -8) * 2.01 * pow(10, -7)) / (7.16 * pow(10, -6) + 2.01 * pow(10, -8)));
 
-    printf("The result of the above expression is: %e", result);
-    
+    printf("The result of the above expression is: %e\n", result);
+
     return 0;
 }
