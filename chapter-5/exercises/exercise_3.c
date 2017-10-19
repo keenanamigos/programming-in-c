@@ -11,11 +11,11 @@ int getNthTriangularNumber(int n);
 
 int main(void)
 {
-    int startingValue = 1;
+    int startingValue = 5;
     int endingValue = 50;
     printf("TABLE OF TRIANGULAR NUMBERS\n\n");
-    printf("From %i to %i\n", startingValue, endingValue);
-    printf("-------------\n");
+    printf("n       Triangular Number\n");
+    printf("-------------------------\n");
     generateTable(startingValue, endingValue);
 
     return 0;
@@ -28,8 +28,11 @@ void generateTable(int startingValue, int endingValue)
 
     for(int i = startingValue; i <= endingValue; ++i)
     {
-        triangularNumber = getNthTriangularNumber(i);
-        printf("%7i\n", triangularNumber);
+        if (i % 5 == 0)
+        {
+            triangularNumber = getNthTriangularNumber(i);
+            printf("%1i     %10i\n", i, triangularNumber);
+        }   
     }
 }
 
