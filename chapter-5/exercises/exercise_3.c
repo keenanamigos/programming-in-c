@@ -1,7 +1,6 @@
 /* 
     Write a program that generates a table of triangular numbers using the formula: n (n + 1) / 2.
-    Have the formula generate 
-
+    Have the formula generate every fifth triangular number between 5 and 50
 */
 
 #include <stdio.h>
